@@ -14,6 +14,4 @@ function getMonth(n) {
   return 'неизвестно';
 }
 
-const result = getMonth(3);
-
-console.log(result);
+module.exports = getMonth;
