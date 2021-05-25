@@ -14,8 +14,4 @@ function getMonth(n) {
   return 'неизвестно';
 }
 
-const month = +prompt('Чтобы получить название месяца, введите его порядковый номер')
-
-const result = getMonth(month)
-
-alert(result)
+module.exports = getMonth;
