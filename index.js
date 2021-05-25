@@ -16,4 +16,6 @@ function getMonth(n) {
 
 const month = +prompt('Чтобы получить название месяца, введите его порядковый номер')
 
-alert(getMonth(month))
+const result = getMonth(month)
+
+alert(result)
