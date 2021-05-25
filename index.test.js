@@ -1,7 +1,6 @@
-// const { describe } = require('yargs');
 const getMonth = require('./index.js');
 
-describe ('test month', () => {
+describe ('test function getMonth', () => {
 
   it ('add 3 to receive March, add 10 to receive October', () => {
     expect(getMonth(3)).toBe('March');
